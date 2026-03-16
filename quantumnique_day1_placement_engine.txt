@@ -1,0 +1,398 @@
+
+QUANTUMNIQUE PLACEMENT ENGINE
+DAY 1 – FULL TRAINING PLAN
+===========================================
+
+BLOCK 1 – APTITUDE (Percentages)
+
+Question 1
+A number increased by 20% becomes 120.
+Find the original number.
+Answer:
+   original num=new amount/100+percentage*100
+                        =120/100+20*100
+                        =100
+
+Question 2
+If the price of a laptop increases from ₹50,000 to ₹60,000,
+what is the percentage increase?
+Answer:
+   percentage increases= increases value-inital value/initial value*100
+                       = 60,000-50,000/50,000*100 =1/5*100
+                       = 0.2*100 =20% 
+
+Question 3
+A student scored 72 out of 90 in an exam.
+Find the percentage score.
+Answer:
+   pc= scored/total*100
+     = 72/90*100
+     = 80%
+
+Question 4
+The population of a town increases from 50,000 to 60,000.
+Find the percentage increase.
+Answer: 
+    percentage increases= increases value-inital value/initial value*100
+                        = 60,000-50,000/50,000*100 =1/5*100
+                        = 0.2*100 =20%
+
+Question 5
+A shirt originally costs ₹800.
+After a 25% discount, what is the final price?
+Answer:
+   final price=orinal cost - discount amount
+              = 800- (original * discount percentage/100)
+              = 800- (800 * 25/100)
+              = 800-200= 600
+
+===========================================
+BLOCK 2 – VERBAL ABILITY
+
+Reading Passage
+
+Technology is transforming industries rapidly. Artificial Intelligence,
+Machine Learning, and Automation are reshaping the way companies operate.
+Businesses now depend heavily on data-driven decision making.
+
+Questions
+
+1. What is the main idea of the passage?
+    -> Technology is transforming industries rapidly.
+2. Which technologies are mentioned in the passage?
+    -> *Machine Learning
+       *Artificial Intelligence
+       *Automation
+3. Why are companies relying on data-driven decisions?
+    -> technologies are improved nowadays so companies relying on data- driven 
+
+Grammar Correction
+
+1. She don't understand the problem.
+      ->she doesn't understand the problem.
+2. He have completed the task.
+      ->he had completed the task.
+3. They was going to the meeting.
+      ->they are going to the meeting.
+
+
+===========================================
+BLOCK 3 – COMMUNICATION PRACTICE
+
+Speak for 2 minutes on:
+
+Introduce Yourself
+
+Include:
+- Name
+- College
+- Branch
+- Skills
+- Projects
+- Career goal
+
+Example structure:
+
+My name is ______.
+I am currently pursuing ______ at ______ college.
+I am interested in software development and problem solving.
+I have worked on projects like ______.
+My goal is to become a software engineer in a product-based company.
+
+Self Introduction:
+  My name is Deepika. i am currently pursuing 3rd year CSE at Muthayammal engineering college. 
+  i am interested in software development and problem solving. i have worked on projects like Music-Player-web Application and 
+  Secure campus Resource Allocation & Auto-Notification Syatem. where i implemented user authentication and frontend-backend
+  integration.
+  my short-term goal is to get placed in a good company where i can enhance my skills. my long-term goal is to achive a responsible     
+  and successful position in the software field.
+
+===========================================
+BLOCK 4 – PROBLEM SOLVING
+
+Find the missing number in the array
+
+[1,2,3,4,6,7,8]
+
+Expected Output
+5
+
+Hint
+
+Use the formula:
+
+Sum = n*(n+1)/2
+
+Solution program:
+
+import java.util.Scanner;
+public class main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        int len=n+1;
+        int total=len*(len+1)/2;
+        int sum=0;
+        for(int i=0;i<arr.length;i++){
+            sum+=arr[i];
+        }
+        int misnum=total-sum;
+        System.out.print(misnum); 
+    }
+}
+ Time complexity: O(n)
+
+===========================================
+BLOCK 5 – DATA STRUCTURES & ALGORITHMS
+
+Topic: Arrays
+
+Problem 1 – Two Sum
+
+Given an array of integers and a target value,
+return the indices of two numbers whose sum equals the target.
+
+Example
+
+nums = [2,7,11,15]
+target = 9
+
+Output
+[0,1]
+
+
+Python Solution
+
+def twoSum(nums,target):
+
+    hashmap = {}
+
+    for i,num in enumerate(nums):
+
+        diff = target - num
+
+        if diff in hashmap:
+            return [hashmap[diff],i]
+
+        hashmap[num] = i
+
+Time Complexity O(n)
+
+Java Solution:
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]= new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        int left=arr[0];
+        int right=arr.length-1;
+        int target=sc.nextInt();
+        while(left<right){
+            int sum=arr[left]+arr[right];
+            if(sum==target){
+                System.out.print(arr[left]+" "+arr[right]);
+                break;
+            }else if(sum>target){
+                right--;
+            }else{
+                left++;
+            }
+        }
+    }
+}
+Time complexity: O(n)
+
+Practice Problem
+
+Find the maximum element in the array
+
+[3,8,1,10,4]
+
+Solution Program:
+
+import java.util.Scanner;
+public class Main{
+    public static int missing(int []arr){
+        int left=0;
+        int right= arr.length-1;
+        int max=arr[0];
+        while(left<right){
+            if(arr[left]>max){
+                max=arr[left];
+            }if(arr[right]>max){
+                max=arr[right];
+            }
+            left++;
+            right--;
+        } 
+        return max;
+    }
+        
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]= new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        System.out.print(missing(arr));
+    }
+}
+Time complexity: O(n)
+
+===========================================
+BLOCK 6 – CORE CS CONCEPTS
+
+DBMS CONCEPT – PRIMARY KEY
+
+A Primary Key is a column in a database table that uniquely identifies
+each row.
+
+Properties
+- Must be unique
+- Cannot be NULL
+- Only one primary key per table
+
+Example						
+
+Student Table
+
+ID   Name
+1    Rahul
+2    Priya
+3    Arun
+
+Here ID is the primary key.
+
+SQL Query:
+use student;
+create table Student_Table( 
+Id int primary key,
+Name varchar(20)not null
+);
+
+===========================================
+OPERATING SYSTEMS CONCEPT – PROCESS VS THREAD
+
+Process
+A process is a program that is currently executing.
+
+Examples
+Chrome
+VS Code
+Spotify
+
+Thread
+A thread is the smallest unit of execution inside a process.
+
+A process can have multiple threads.
+
+Example
+Chrome browser:
+- One thread loads webpage
+- One thread handles UI
+- One thread downloads data
+
+Differences
+
+Process
+Heavyweight
+Separate memory
+Slow context switch
+
+Thread
+Lightweight
+Shared memory
+Fast context switch
+
+
+===========================================
+NETWORKING CONCEPT – TCP VS UDP
+
+TCP (Transmission Control Protocol)
+
+Characteristics
+- Reliable
+- Error checking
+- Data arrives in order
+
+Examples
+HTTP
+HTTPS
+FTP
+Email
+
+
+UDP (User Datagram Protocol)
+
+Characteristics
+- Faster
+- No guarantee of delivery
+- No error checking
+
+Examples
+Video streaming
+Online gaming
+VoIP calls
+
+
+Key Differences
+
+TCP
+Reliable
+Connection oriented
+Used for web pages
+
+UDP
+Fast
+Connectionless
+Used for streaming
+
+
+===========================================
+CORE COMPUTER SCIENCE CONCEPT – TIME COMPLEXITY
+
+Time complexity measures how fast an algorithm runs as input size grows.
+
+Common complexities
+
+O(1) – Access array element
+O(log n) – Binary search
+O(n) – Linear search
+O(n log n) – Merge sort
+O(n²) – Bubble sort
+
+
+Example
+
+for i in range(n):
+    print(i)
+
+Time Complexity
+O(n)
+
+
+===========================================
+INTERVIEW QUESTION OF THE DAY
+
+What is a Primary Key?
+
+Answer
+
+A Primary Key is a column in a database table that uniquely identifies
+each record in the table.
+
+Rules
+- Must be unique
+- Cannot be NULL
+
+
+===========================================
+END OF DAY 1 – QUANTUMNIQUE PLACEMENT ENGINE
