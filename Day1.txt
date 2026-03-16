@@ -1,5 +1,4 @@
 
-QUANTUMNIQUE PLACEMENT ENGINE
 DAY 1 – FULL TRAINING PLAN
 ===========================================
 
@@ -395,4 +394,3 @@ Rules
 
 
 ===========================================
-END OF DAY 1 – QUANTUMNIQUE PLACEMENT ENGINE
