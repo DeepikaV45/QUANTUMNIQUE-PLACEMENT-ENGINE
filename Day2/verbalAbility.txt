@@ -1,0 +1,29 @@
+BLOCK 2 – VERBAL ABILITY
+
+Reading Passage
+
+Software development is evolving rapidly with the rise of cloud computing and
+artificial intelligence. Companies are now building scalable systems that can
+handle millions of users simultaneously.
+
+Questions
+
+1. What technologies are influencing software development?
+     -> cloud computing 
+     -> Artificial intelligence
+
+2. Why are scalable systems important?
+     -> it can handle millions of users simultaneously.
+
+3. What does "scalable" mean in software systems?
+     ->  its ability to handle users load simultaneously without decrease performance.
+
+Grammar Correction
+
+1. He don't like programming.
+     -> he doesn't like programming.
+2. She have submitted the assignment.
+     -> she had submitted the assignment.
+3. They was discussing the project.
+     -> they were discussing the project.
+
