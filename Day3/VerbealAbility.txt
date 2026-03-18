@@ -1,0 +1,23 @@
+Reading Passage
+
+Data structures are essential for efficient problem solving. Choosing the
+right data structure can significantly improve performance.
+
+Questions
+
+1. Why are data structures important?
+   -> Data Structure are essential for efficient problem solving.
+2. What happens if we choose the wrong data structure?
+   -> Choosing the wrong data structure may reduce the performance.
+3. What does performance mean in programming?
+   -> its based on performance and speed, storage.
+
+Grammar Correction
+
+1. He go to college daily.
+   -> he goes to college daily.
+2. She don’t likes coding.
+   -> she doesn't like coding.
+3. We was solving problems.
+   -> we were solving problem.
+
