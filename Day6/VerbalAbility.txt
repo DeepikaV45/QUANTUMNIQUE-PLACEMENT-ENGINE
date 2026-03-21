@@ -1,0 +1,27 @@
+Reading Passage
+
+Databases are at the heart of modern applications. Efficient storage,
+retrieval, and management of data are essential for building scalable
+software products. Companies rely on well-designed databases to ensure
+data consistency and performance.
+
+Questions
+
+1. Why are databases important in modern applications?
+   -> Databases important in modern application because it gives Efficient storage,
+      retrieval, and management of data are essential for building scalable
+      software products. 
+2. What does data consistency mean?
+   -> making sure the information is correct and the same everywhere.
+3. Why do companies need well-designed databases?
+   ->  well-designed databases to ensure data consistency and performance.
+
+
+Grammar Correction
+
+1. She do not understand SQL joins.
+   -> She does not understand SQL joins.
+2. He were explaining the database schema.
+   -> He was explaining the database schema.
+3. They has written the program successfully.
+   -> they have written the program successfully.
