@@ -9,21 +9,19 @@ public class BinarySearch {
         for(int i= 0;i<n;i++){
             nums[i]=sc.nextInt();
         }
-        int target = sc.nextInt();
-        int result = -1;
-        int start = 0;
-        int end = n - 1;
-
-            while(start<=end) {
-            int mid = start + (end - start) / 2;
-            
-            if (nums[mid] == target) {
-                result = mid;
+        int target=sc.nextInt();
+        int result=-1;
+        int start=0;
+        int end=n-1;
+            while(start<=end){
+            int mid=start+(end-start)/2;
+            if(nums[mid]==target){
+                result=mid;
                 break;
-            } else if (nums[mid] < target) {
-                start = mid + 1;
-            } else {
-                end = mid - 1;
+            }else if(nums[mid]<target){
+                start=mid+1;
+            }else{
+                end=mid-1;
             }
         }
         
